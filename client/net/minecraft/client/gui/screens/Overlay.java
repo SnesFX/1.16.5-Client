@@ -1,0 +1,16 @@
+/*
+ * Decompiled with CFR 0.146.
+ */
+package net.minecraft.client.gui.screens;
+
+import net.minecraft.client.gui.GuiComponent;
+import net.minecraft.client.gui.components.Widget;
+
+public abstract class Overlay
+extends GuiComponent
+implements Widget {
+    public boolean isPauseScreen() {
+        return true;
+    }
+}
+
